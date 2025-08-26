@@ -1,6 +1,6 @@
 (lang dune 3.19)
 
-(name figuring_stuff_out)
+(name planner)
 
 (generate_opam_files true)
 
@@ -16,7 +16,7 @@
 (documentation https://url/to/documentation)
 
 (package
- (name figuring_stuff_out)
+ (name planner)
  (synopsis "A short synopsis")
  (description "A longer description")
  (depends ocaml core)

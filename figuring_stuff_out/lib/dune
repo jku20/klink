@@ -1,4 +1,5 @@
 (library
  (libraries core)
- (public_name figuring_stuff_out)
- (name figuring_stuff_out))
+ (public_name planner)
+ (name planner)
+ (preprocess (pps ppx_sexp_conv)))

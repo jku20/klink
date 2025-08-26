@@ -1,5 +1,6 @@
 (library
- (name test_figuring_stuff_out)
+ (name test_planner)
+ (libraries core planner)
  (inline_tests)
  (preprocess
   (pps ppx_jane)))
