@@ -1,5 +1,5 @@
 (library
- (libraries core)
+ (libraries core msat msat.sat msat.tseitin)
  (public_name planner)
  (name planner)
  (preprocess (pps ppx_sexp_conv)))

@@ -19,7 +19,7 @@
  (name planner)
  (synopsis "A short synopsis")
  (description "A longer description")
- (depends ocaml core)
+ (depends ocaml core msat)
  (tags
   ("add topics" "to describe" your project)))
 

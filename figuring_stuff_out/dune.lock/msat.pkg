@@ -1,0 +1,11 @@
+(version 0.9.1)
+
+(build
+ (run dune build @install -p %{pkg-self:name} -j %{jobs}))
+
+(depends ocaml dune iter)
+
+(source
+ (fetch
+  (url https://github.com/Gbury/mSAT/archive/v0.9.1.tar.gz)
+  (checksum md5=ba623630b0b8e0edc016079dd214c80b)))
